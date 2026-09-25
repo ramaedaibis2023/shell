@@ -56,8 +56,8 @@ cp ./data/raw/*event*.log ./data/processed/event_logs
 #<<<<<<< HEAD
 rm ./data/raw/*ipaddr*.*
 rm ./data/processed/user_logs/*ipaddr*.*
-=======
-rm -rf ./data
+
+#rm -rf ./data
 #>>>>>>> 93b0ce62c8e1521dc6a70f3f9dbd56faa69ebad7
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
